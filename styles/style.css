@@ -152,3 +152,34 @@ margin-bottom: 27px;
     }
     
 }
+
+/* -------------tab ----------- */
+
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+    .container{
+        width: 100%;
+    }
+    .players{
+        padding: 10px;
+        background-color: rgb(140, 170, 140);
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .player, .blog, .course{
+        margin-bottom: 10px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .blogs{
+        padding: 10px;
+        background-color: rgb(198, 189, 228);
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .courses{
+        padding: 10px;
+        background-color: rgb(204, 177, 204);
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    
+}
